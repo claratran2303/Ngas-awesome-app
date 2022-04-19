@@ -1,0 +1,66 @@
+h1 {
+    color: red;
+  }
+button{
+  display: block;
+  background-color: rgb(27, 195, 103);
+  transition: background-color .1s;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 10px;
+  }
+  
+button:hover {
+    background-color: rgb(96, 179, 78);
+  }
+    
+    
+  .today {
+    font-size: 24px;
+    margin: 10px 30px;
+    background-color: rgb(241, 241, 215);
+    border-radius: 4px;
+    text-align: center;
+  }
+  #c-degree, #f-degree{
+    font-size: 15px;
+  }
+  #today-temperature{
+    font-size: 50px;
+    color: red;
+  }
+ 
+  .icon-today,
+  .status-today,
+  .temp-today {
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+  .forcast {
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 4px;
+    background-color: blueviolet;
+  }
+  .day1 {
+    background: rgb(223, 88, 35);
+  }
+  .day2 {
+    background: rgb(226, 190, 113);
+  }
+  .day3 {
+    background: rgb(171, 199, 120);
+  }
+  .day4 {
+    background: rgb(108, 187, 197);
+  }
+  .day5 {
+    background: rgb(200, 123, 202);
+  }
+  .date {
+    font-weight: bolder;
+  }
+
+
+ 
