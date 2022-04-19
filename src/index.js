@@ -77,14 +77,15 @@ searchForm.addEventListener("submit",handleSubmit);
  
 function handleFoundCity(response){
   let FoundCity=response.data[0].name;
-  searchCity(FoundCity);
+  searchCity(FoundCity);console.log(response);
 }
 function searchLocation(position) {
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude; 
   let apiKey = "d3c8204f4c4db0d26947b9ed2cb7ac82";
-  let apiRoot = "http://api.openweathermap.org/geo/1.0/reverse?";
+  let apiRoot = "https://api.openweathermap.org/geo/1.0/reverse?";
   let apiUrl = `${apiRoot}lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
+  console.log(apiUrl);
   axios.get(apiUrl).then(handleFoundCity);
 }
 
