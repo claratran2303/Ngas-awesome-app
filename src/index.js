@@ -76,7 +76,6 @@ searchForm.addEventListener("submit",handleSubmit);
 // 😍 show Weather of Current Location
  
 function handleFoundCity(response){
-  console.log(response)
   let FoundCity=response.data[0].name;
   searchCity(FoundCity);
 }
